@@ -1,11 +1,25 @@
+# STREAMING_CHUNK: Listing core analysis and modeling libraries...
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
+notebook
+
+# STREAMING_CHUNK: Listing text splitting and chunking tools...
 langchain-text-splitters
+
+# STREAMING_CHUNK: Adding vector database and embedding libraries...
 sentence-transformers
 faiss-cpu
+langchain
+langchain-community
+huggingface-hub
+
+# STREAMING_CHUNK: Adding web-based dashboards...
 streamlit
 gradio
-notebook
+
+# STREAMING_CHUNK: Injecting Google LLM support libraries...
+google-genai
+google-generativeai
