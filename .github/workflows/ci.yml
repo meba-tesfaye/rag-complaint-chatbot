@@ -1,0 +1,2 @@
+name: Python CIon: [push, pull_request]
+jobs:build:runs-on: ubuntu-lateststeps:- uses: actions/checkout@v3- name: Set up Pythonuses: actions/setup-python@v4with:python-version: '3.10'- name: Install dependenciesrun: |python -m pip install --upgrade pippip install -r requirements.txt- name: Run Linting checkrun: |# Optional: Add checks like flake8 or black here to show you care about code qualityecho "CI check complete: Dependencies installed successfully."
